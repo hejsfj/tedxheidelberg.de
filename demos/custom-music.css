@@ -21,7 +21,7 @@ a,
 .toggle-title:hover .toggle-name,
 .pricing-table.accent-table .pricing-price .price-unit,
 .widget ul:not(.socialmedia-widget):not(.product-list) li a:hover {
-	color: #e7ce3a;
+	color: #e62b1e;
 	}
 
 #page-loader .loader-figure,
@@ -33,7 +33,7 @@ hr.colored,
 .inline-video .inline-iframe-container .close-inline-video:hover,
 .accent-pricing .pricing-table.accent-table, .text-light .accent-pricing .pricing-table.accent-table,
 .tagcloud > a:hover {
-	border-color: #e7ce3a;
+	border-color: #e62b1e;
 	}
 
 input[type=submit]:hover, input[type=button]:hover, button:hover,
@@ -54,7 +54,7 @@ input[type=submit]:hover, input[type=button]:hover, button:hover,
 .text-light .sr-button.button-5:hover,
 hr.colored,
 .tabs-button ul.tab-nav li.active a, .vertical-tabs ul.tab-nav li.active a {
-	background-color: #e7ce3a;
+	background-color: #e62b1e;
 	}
 
 .colored,
@@ -64,13 +64,13 @@ nav#main-nav ul li ul > li a:hover, nav#main-nav ul li ul > li.current-menu-item
 #header-language .header-language-content ul.lang-select li a:hover,
 header.small-header #header-search a#show-search:hover,
 header.small-header.header-dark:not(.mega-hover) #header-search a#show-search:hover {
-	color: #e7ce3a !important;
+	color: #e62b1e !important;
 	}
 
 header #menu .responsive-nav-toggle:hover .hamburger, header #menu.menu-is-open .responsive-nav-toggle:hover .hamburger,
 header #menu .responsive-nav-toggle:hover .hamburger:before, header #menu.menu-is-open .responsive-nav-toggle:hover .hamburger:before,
 header #menu .responsive-nav-toggle:hover .hamburger:after, header #menu.menu-is-open .responsive-nav-toggle:hover .hamburger:after {
-	background-color: #e7ce3a !important;
+	background-color: #e62b1e !important;
 	}
 
 hr.zigzag.colored {
@@ -102,7 +102,9 @@ hr.zigzag.colored {
 	  font-size: 1rem;
 	}
 
-
+	header #logo {
+	    height: 40px;
+	}
 
 
 /* -----------------------------------------------------------------------------------
