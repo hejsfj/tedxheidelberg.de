@@ -12,7 +12,7 @@ $(function() {
   var now = new Date();
 
   var currentDate = Date.now(),
-      endDate = new Date((now.getFullYear() + 1) + '/01/01');
+      endDate = new Date('2016/10/29');
 
   var $days = $('.days'),
       $hours = $('.hours'),

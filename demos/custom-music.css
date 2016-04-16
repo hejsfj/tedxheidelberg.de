@@ -81,10 +81,7 @@ hr.zigzag.colored {
 
 
 	.countdown {
-	  position: absolute;
-	  top: 50%;
-	  left: 0%;
-	  width: 100%;
+
 	  text-align: center;
 	}
 	.countdown.style-1 div {
@@ -95,13 +92,13 @@ hr.zigzag.colored {
 	  display: block;
 	}
 	.countdown div {
-	  font-size: 5rem;
+	  font-size: 3rem;
 	  font-weight: 100;
 	  display: inline-block;
 	}
 	.countdown div span {
 	  font-weight: 300;
-	  color: #777;
+	  color: #fff;
 	  font-size: 1rem;
 	}
 
