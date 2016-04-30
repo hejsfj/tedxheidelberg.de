@@ -5,8 +5,8 @@ $mail = new PHPMailer();
 
 if( $_POST['name'] != '' AND $_POST['email'] != '' AND $_POST['message'] != '' ) {
 
-	$recipientemail = "youremail@host.com"; // Your Email Address
-	$recipientname = "Your Name"; // Your Name
+	$recipientemail = "hallo@tedxheidelberg.de"; // Your Email Address
+	$recipientname = "TEDxHeidelberg"; // Your Name
 
 	$name = stripslashes($_POST['name']);
 	$email = trim($_POST['email']);
