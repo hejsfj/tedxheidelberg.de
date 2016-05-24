@@ -77,9 +77,6 @@ hr.zigzag.colored {
   	background: repeat-x url('data:image/svg+xml;utf-8,<?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12px" height="6px" viewBox="0 0 12 6" enable-background="new 0 0 12 6" xml:space="preserve"><polygon points="6,3.5 0,0 0,1.208 6,4.708 12,1.208 12,0" fill="%23e7ce3a"/></svg>');
 	}
 
-
-
-
 	.countdown {
 
 	  text-align: center;
@@ -92,14 +89,13 @@ hr.zigzag.colored {
 	  display: block;
 	}
 	.countdown div {
-	  font-size: 3rem;
-	  font-weight: 100;
+
 	  display: inline-block;
 	}
 	.countdown div span {
-	  font-weight: 300;
+
 	  color: #fff;
-	  font-size: 1rem;
+
 	}
 
 	header #logo {
@@ -1927,7 +1923,7 @@ header.header-dark:not(.mega-hover) #top-bar .socialmedia-widget li a { color: #
 
 
 /* Transparent Header */
-header.header-transparent { background: transparent; color: #1a1a1a; }
+header.header-transparent { background: transparent; visibility: hidden; color: #1a1a1a; }
 header.header-transparent:not(.mega-hover) nav#main-nav > ul > li > a { color: #1a1a1a; }
 header.header-transparent:not(.mega-hover) nav#main-nav > ul > li > a:after { background: #1a1a1a; }
 header.header-transparent:not(.mega-hover) nav#main-nav > ul > li > a.button-style { color: #ffffff; }
@@ -2015,7 +2011,7 @@ header.small-header.header-style-floating nav#main-nav .mega-menu-content:not(.n
 
 /* Small Header (white/light background) */
 header.small-header:not(.not-sticky):not(.header-style-vertical) { background: #ffffff !important; }
-header.small-header:not(.not-sticky):not(.header-style-vertical) { border-bottom: 1px solid rgba(0, 0, 0, .10) !important; }
+header.small-header:not(.not-sticky):not(.header-style-vertical) { border-bottom: 1px solid rgba(0, 0, 0, .10) !important; visibility: visible;}
 header.small-header:not(.not-sticky):not(.header-style-vertical) nav#main-nav > ul > li > a { color: #1a1a1a !important; }
 header.small-header:not(.not-sticky):not(.header-style-vertical) nav#main-nav > ul > li > a:after { background: #1a1a1a !important; }
 header.small-header:not(.not-sticky):not(.header-style-vertical) nav#main-nav > ul > li > a.button-style { color: #ffffff !important; }
@@ -4110,9 +4106,9 @@ p.meta-row .meta-label {
 .text-light .sr-button.button-4:hover { background: #ffffff; border-color: #ffffff; color: #1a1a1a; }
 
 .sr-button.button-5 { background: transparent; border: 2px solid rgba(0, 0, 0, .2); color: #1a1a1a; }
-.sr-button.button-5:hover { background: #e62b1e; border-color: #e62b1e; color: #ffffff; }
+.sr-button.button-5:hover { background: #fff; border-color: #fff; color: #000; }
 .text-light .sr-button.button-5 { border: 2px solid rgba(255, 255, 255, .2); color: #ffffff; }
-.text-light .sr-button.button-5:hover { background: #e62b1e; border-color: #e62b1e; color: #ffffff; }
+.text-light .sr-button.button-5:hover {  background: #fff; border-color: #fff; color: #000; }
 
 .sr-button.button-6 { background: transparent; border: 2px solid rgba(0, 0, 0, .2); color: #1a1a1a; }
 .sr-button.button-6:hover { border-color: #e62b1e; background: transparent; }
