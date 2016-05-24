@@ -1923,7 +1923,7 @@ header.header-dark:not(.mega-hover) #top-bar .socialmedia-widget li a { color: #
 
 
 /* Transparent Header */
-header.header-transparent { background: transparent; visibility: hidden; color: #1a1a1a; }
+header.header-transparent { background: transparent; display: none; color: #1a1a1a; }
 header.header-transparent:not(.mega-hover) nav#main-nav > ul > li > a { color: #1a1a1a; }
 header.header-transparent:not(.mega-hover) nav#main-nav > ul > li > a:after { background: #1a1a1a; }
 header.header-transparent:not(.mega-hover) nav#main-nav > ul > li > a.button-style { color: #ffffff; }
