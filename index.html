@@ -1,298 +1,407 @@
-
-<!DOCTYPE html>
-<html class="no-js">
+<!doctype html>
+<html class="no-js" lang="en-US">
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1, maximum-scale=1, minimal-ui">
-    <meta name="description" content="I am a front-end developer with a background stretched over visual and technology.">
-    <meta name="author" content="Matteo Belfiore">
 
+    <!-- DEFAULT META TAGS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <!-- FONTS -->
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet" type="text/css">
+	  <link href="http://fonts.googleapis.com/css?family=Lora:400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" id="default-style-css"  href="files/css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="fontawesome-style-css" href="files/css/font-awesome.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="ionic-icons-style-css" href="files/css/ionicons.css" type="text/css" media="all" />
+	  <link rel="stylesheet" id="owlcarousel-css" href="files/css/owl.carousel.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="lightcase-css" href="files/css/lightcase.css" type="text/css" media="all" />
+	  <link rel="stylesheet" id="isotope-style-css"  href="files/css/isotope.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="mqueries-style-css"  href="files/css/mqueries.css" type="text/css" media="all" />
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="files/uploads/favicon.png"/>
+
+    <!-- DOCUMENT TITLE -->
     <title>TEDxHeidelberg</title>
 
-    <meta name="og:title" content="Matteo Belfiore">
-    <meta name="og:description" content="I am a front-end developer with a background stretched over visual and technology.">
-    <meta name="og:image" content="http://matteobelfio.re/assets/img/mb.png">
-    <meta name="og:url" content="http://matteobelfio.re">
-    <meta name="og:type" content="website">
-
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-    <meta name="format-detection" content="telephone=no">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="grid.css">
-
 </head>
+
 <body>
 
-
-  <header id="header" class="overlay-bottom">
-    <div class="header-inner clearfix">
-
-      <!-- DEFAULT HEADER CONTENT -->
-   <div class="default-header-content">
-
-
-
-   <div class="menu right-float clearfix" style="top: 0; right: 0; padding: 5vh 5vw 5vh 5vw; position:fixed;">
-<div style="display: flex; line-height: 1;">
-     <a class="typeform-share link" href="https://seprodu.typeform.com/to/f5G5OE" data-mode="2" target="_blank" style="padding-right: 20px;"><span>Nominate </span></a>
-
-  
-<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
-
-
-     <a class="typeform-share link" href="https://seprodu.typeform.com/to/KamuE5" data-mode="2" target="_blank" style="padding-right: 20px;"><span> Apply</span></a>
-
-<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
-
-
-     <a href="#" class="open-nav nav-dark"><span></span></a>
-   </div>
-
-     <nav id="main-nav" class="text-light">
-<div class="wrapper">
-<div class="grid">
-  <div class="grid__col grid__col--3-of-3">
-
-       <div class="nav-inner">
-       <ul>
-       <li><a href="index.html" class="scroll-to">Home</a></li>
-       <li><a href="#about" class="scroll-to" >Team</a></li>
-       <li><a href="#how" class="scroll-to">Partner</a></li>
-       <li><a href="#portfolio" class="scroll-to">About TEDx</a></li>
-       </ul>
-       </div>
-
-     </div>
-
-     </div>
-   </div>
-
-       <div class="nav-bg"></div>
-     </nav>
-   </div>
+<!-- PAGELOADER -->
+<div id="page-loader">
+	<div class="page-loader-inner">
+     	<span class="loader-figure"></span>
+   		<h6 class="loader-label">Loading</h6>
   </div>
-      <!-- DEFAULT HEADER CONTENT -->
+</div>
+<!-- PAGELOADER -->
 
-    </div> <!-- END .header-inner -->
-  </header> <!-- END header -->
-  <img width="100%" style="max-width:1200px; display:block; margin-left:auto; margin-right:auto;" src="images/tedxheidelberg-cover.svg">
-  <div class="wrapper">
+<!-- PAGE CONTENT -->
+<div id="page-content">
+
+	<!-- HEADER -->
+	<header id="header">
+		<div class="header-inner clearfix">
+
+            <!-- LOGO -->
+            <div id="logo" class="left-float">
+                <a href="index.html">
+              	<img id="light-logo" src="files/uploads/logo-sudo-light.png" alt="Logo Light">
+                </a>
+            </div>
+
+            <!-- MAIN NAVIGATION -->
+            <div id="menu" class="right-float">
+    			<a href="#" class="responsive-nav-toggle"><span class="hamburger"></span></a>
+                <div class="menu-inner">
+                    <nav id="main-nav">
+                        <ul>
+                          <li class="menu-item"><a href="index.html">Home</a></li>
+                          <li class="menu-item"><a href="partners.html">Partners</a></li>
+                          <li class="menu-item"><a href="about.html">About</a></li>
+                          <li class="menu-item"><a href="team.html">Team</a></li>
+                          <li class="menu-item"><a href="contact.html">Contact us</a></li>
+                        </ul>
+                      </nav>
+                </div><!-- END .menu-inner -->
+            </div><!-- END #menu -->
+
+		</div> <!-- END .header-inner -->
+	</header>
+
+    <!-- HERO  -->
+	<section id="hero" class="hero-full text-light parallax-section" style="background: url(files/uploads/crossingborders2.jpg) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+
+        <div id="page-title" class="wrapper align-center">
+
+          <img style="max-height:25vh;"src="files/uploads/cover.svg" alt="SEO NAME">
+          <h1><span><strong>TEDxHeidelberg 2016</strong></span></h1>
+          <h4><span>Overcoming boundaries - October 29th, 2016</span></h3>
+
+            <h4>
+
+              <div class="countdown" >
+                <div style="line-height:initial;">
+                <div class="days-container">
+                  <div class="days"></div><span> days</span>
+                </div>
+
+                <div class="hours-container">
+                  <div class="hours"></div><span> hours</span>
+                </div>
+
+                <div class="minutes-container">
+                  <div class="minutes"></div><span> minutes</span>
+                </div>
+
+                <div class="seconds-container">
+                  <div class="seconds"></div><span> seconds</span>
+                </div>
+
+                </div>
+              </div>
+
+            </h4>
+
+            <div class="spacer-small"></div>
+
+            <a href="https://seprodu.typeform.com/to/KamuE5" data-mode="2" target="_blank" class="typeform-share sr-button button-small button-icon-text button-5 circled"><i class="fa fa-file-text-o"></i>apply as a speaker</a>
+            <a href="https://seprodu.typeform.com/to/f5G5OE" data-mode="2" target="_blank" class="typeform-share sr-button button-small button-icon-text button-5 circled"><i class="fa fa-lightbulb-o"></i>nominate a speaker</a>
+            <a href="#tickets" class="sr-button button-small button-icon-text button-5 circled"><i class="fa fa-ticket"></i>get tickets</a>
 
 
 
-    <div class="grid">
+<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
 
 
-      <h1 style="text-align:center;"><span style="font-size:58px;">TEDxHeidelberg 2016</span><br>Overcoming Boundaries</h1>
+              <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
+
+        </div> <!-- END #page-title -->
+
+    </section>
+    <!-- HERO -->
+
+
+	<!-- PAGEBODY -->
+	<section id="page-body" class="notoppadding">
+
+    	<div class="fullwidth-section" style="background-color:#fff">
+         	<div class="fullwidth-content wrapper-small align-center">
+            	<h3 class="uppercase"><strong>Why?</strong></h3>
+                <div class="spacer-medium"></div>
+                <p>We believe ideas shape who we are and how we approach the world around us.<br>
+We believe it is our own responsibility to create the future we want to live in.<br>
+We believe it is our duty to help the change makers, innovators, entrepreneurs<br> and young talents of our time to share their ideas and to connect with their community.<p>
+We invite you to take part in our journey towards our common future.<br>
+We invite you to dream together with dynamic speakers, performers and local thought leaders.<br>
+We invite you to question your habits, to leave your comfort zone and to overcome your boundaries.
+</p>
+    <div class="spacer-medium"></div>
+<h5 class="uppercase">Our theme for 2016</h5>
+<h3 class="uppercase"><strong>Overcoming Boundaries</strong></h3>
+  <div class="spacer-medium"></div>
+  <p>All of us are surrounded by different kinds of boundaries as part of our daily life – habits, laws, physical and mental limits, just to name a few. The way how we are affected by these boundaries is hugely diverse and mainly determined by our individual character and the role we play within the society. Which rules do we decide to follow, which personal limits do we question and which boundaries do we actually try to overcome?
+</p>
+
+            </div>
+        </div> <!-- END .fullwidth-section -->
 
 
 
 
+        <div class="fullwidth-section" style="background-color:#e62b1e; color:#fff;">
+            <div class="fullwidth-content wrapper-small align-center">
+
+        <h3 class="uppercase" style="color:#fff"><strong>Speakers in 2016</strong></h3>
+        <img src="files/uploads/cover.svg" alt="SEO NAME">
+        <div class="spacer-medium"></div>
+
+        <div class="column-section clearfix">
+            <div class="column one-third team-member align-center">
+                <div class="team-image">
+                  <img src="files/uploads/speaker.png" alt="SEO NAME">
+                </div>
+                <div class="team-content">
+                  <h5 class="team-name uppercase" style="color:#fff"><strong>Coming Soon</strong></h5>
+                    <h6 class="subtitle-2" style="color:#fff">Coming Soon</h6>
 
 
-        <main>
-            <section class="content-section">
-            <p>  We believe ideas shape who we are and how we approach the world around us.
-We believe it is our own responsibility to create the future we want to live in.
-We believe it is our duty to help the change makers, innovators, entrepreneurs
-and young talents of our time to share their ideas and to connect with their community.
-We invite you to take part in our journey towards our common future.
-We invite you to dream together with dynamic speakers, performers and local thought leaders.
-We invite you to question your habits, to leave your comfort zone and to overcome your boundaries. </p>
+                </div>
+            </div>
+            <div class="column one-third team-member align-center">
+                <div class="team-image">
+                  <img src="files/uploads/speaker.png" alt="SEO NAME">
+                </div>
+                <div class="team-content">
+                  <h5 class="team-name uppercase" style="color:#fff"><strong>Coming Soon</strong></h5>
+                    <h6 class="subtitle-2" style="color:#fff">Coming Soon</h6>
 
 
-<p>All of us are surrounded by different kinds of boundaries as part of our daily life – habits, laws, physical and mental limits, just to name a few. The way how we are affected by these boundaries is hugely diverse and mainly determined by our individual character and the role we play within the society. Which rules do we decide to follow, which personal limits do we question and which boundaries do we actually try to overcome?</p>
+                </div>
+            </div>
+            <div class="column one-third last-col team-member align-center">
+                <div class="team-image">
+                  <img src="files/uploads/speaker.png" alt="SEO NAME">
+                </div>
+                <div class="team-content">
+                  <h5 class="team-name uppercase" style="color:#fff"><strong>Coming Soon</strong></h5>
+                    <h6 class="subtitle-2" style="color:#fff">Coming Soon</h6>
 
-  <div style="height:80px;"></div>
-<h2 style="font-size:38px; text-align:center;">Speaker in 2016</h2>
 
-  <div class="grid__col grid__col--1-of-3">  <img width="80%" style="max-width:1200px; display:block; margin-left:auto; margin-right:auto;" src="images/speaker.svg"></img>To be announced soon</div>
-  <div class="grid__col grid__col--1-of-3">  <img width="80%" style="max-width:1200px; display:block; margin-left:auto; margin-right:auto;" src="images/speaker.svg"></img>To be announced soon</div>
-  <div class="grid__col grid__col--1-of-3">  <img width="80%" style="max-width:1200px; display:block; margin-left:auto; margin-right:auto;" src="images/speaker.svg"></img>To be announced soon</div>
-  <div style="height:80px;"></div>
-  <div class="grid__col grid__col--1-of-3">  <img width="80%" style="max-width:1200px; display:block; margin-left:auto; margin-right:auto;" src="images/speaker.svg"></img>To be announced soon</div>
-  <div class="grid__col grid__col--1-of-3">  <img width="80%" style="max-width:1200px; display:block; margin-left:auto; margin-right:auto;" src="images/speaker.svg"></img>To be announced soon</div>
-  <div class="grid__col grid__col--1-of-3">  <img width="80%" style="max-width:1200px; display:block; margin-left:auto; margin-right:auto;" src="images/speaker.svg"></img>To be announced soon</div>
-  <div style="height:80px;"></div>
-  <div class="grid__col grid__col--1-of-3">  <img width="80%" style="max-width:1200px; display:block; margin-left:auto; margin-right:auto;" src="images/speaker.svg"></img>To be announced soon</div>
-  <div class="grid__col grid__col--1-of-3">  <img width="80%" style="max-width:1200px; display:block; margin-left:auto; margin-right:auto;" src="images/speaker.svg"></img>To be announced soon</div>
-  <div class="grid__col grid__col--1-of-3">  <img width="80%" style="max-width:1200px; display:block; margin-left:auto; margin-right:auto;" src="images/speaker.svg"></img>To be announced soon</div>
+                </div><p>
+            </div><p>
+            <div class="column one-third team-member align-center">
+                <div class="team-image">
+                  <img src="files/uploads/speaker.png" alt="SEO NAME">
+                </div>
+                <div class="team-content">
+                  <h5 class="team-name uppercase" style="color:#fff"><strong>Coming Soon</strong></h5>
+                    <h6 class="subtitle-2" style="color:#fff">Coming Soon</h6>
 
-  <div style="height:80px;"></div>
-<h2 style="font-size:38px; text-align:center;">Our venue</h2>
+
+                </div>
+            </div>
+            <div class="column one-third team-member align-center">
+                <div class="team-image">
+                  <img src="files/uploads/speaker.png" alt="SEO NAME">
+                </div>
+                <div class="team-content">
+                  <h5 class="team-name uppercase" style="color:#fff"><strong>Coming Soon</strong></h5>
+                    <h6 class="subtitle-2" style="color:#fff">Coming Soon</h6>
+
+
+                </div>
+            </div>
+            <div class="column one-third last-col team-member align-center">
+                <div class="team-image">
+                  <img src="files/uploads/speaker.png" alt="SEO NAME">
+                </div>
+                <div class="team-content">
+                  <h5 class="team-name uppercase" style="color:#fff"><strong>Coming Soon</strong></h5>
+                    <h6 class="subtitle-2" style="color:#fff">Coming Soon</h6>
+
+
+                </div>
+        </div> <!-- END .column-section -->
+
+
 </div>
 </div>
 
-<img width="100%" src="images/printmediaheidelberg.jpg"></img>
-  <div style="height:10px;"></div>
-<p style="text-align:center;">Print Media Academy Heidelberg</p>
 
 
-<div class="wrapper">
-  <div class="grid">
 
 
-  <div style="height:80px;"></div>
-<h2 style="font-size:38px; text-align:center;">Tickets</h2>
-<p style="text-align:center">Tickets are not available yet</p>
 
-<div style="height:80px;"></div>
-<h2 style="font-size:38px; text-align:center;">Join our Newsletter</h2>
 
-<!-- Begin MailChimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-#mc_embed_signup { border: none; text-align: center; width: 100%; } /* Signup form container */
 
-.mc-field-group { display: inline-block; } /* positions input field horizontally */
 
-#mce-EMAIL { font-size: 1em; border: 2px solid #fff ; color: #343434; background-color: #fff; padding: .7em 9em .7em 1em; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; display: inline-block; margin: 0; } /* Input Styles */
 
-.clear { display: inline-block; } /* positions button horizontally in line with input */
 
-.button {font-size: 1em; letter-spacing: .03em; color: #000; background-color: #fff ; padding: .7em 2em; border: 2px solid #fff ; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; display: inline-block; margin: 0; } /* Button Styles */
 
-:-webkit-input-placeholder { color: #000 ; } /* WebKit browsers */
-:-moz-placeholder { color: #000 ; } /* Mozilla Firefox 4 to 18 */
-::-moz-placeholder { color: #000 ; } /* Mozilla Firefox 19+ */
-:-ms-input-placeholder { color: #000 ; } /* Internet Explorer 10+ */
 
-@media (max-width: 768px) { /* positions input field and button underneath each other with 100% width for tablet and mobile */
 
-.mc-field-group { display: block; max-width: 100%; }
-#mce-EMAIL { padding: .7em 0 .7em 1em; width: 96%; margin: 0; }
-.clear { display: block; width: 100% }
-.button { width: 100%; margin: .5em 0 0 0; }
 
-}
-	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-<div id="mc_embed_signup">
-<form action="//tedxheidelberg.us13.list-manage.com/subscribe/post?u=08ff8485898b9c3bbcd202041&amp;id=2bd410be91" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
 
-	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_08ff8485898b9c3bbcd202041_2bd410be91" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
-</form>
+<div class="fullwidth-section" style="background-color:#fff; color:#000;">
+    <div class="fullwidth-content wrapper-small align-center">
+
+<h3 class="uppercase" style="color:#000"><strong>Venue</strong></h3>
+<div class="spacer-medium"></div>
+<img src="files/uploads/pmabild.JPG" alt="Print-Media-Academy">
+<p>It is our pleasure to announce that the first annual TEDxHeidelberg conference will be taking place on Saturday, the 29th of October in Heidelberg, Germany. Fortunately we are able to host our event in the Print Media Academy Auditorium, which seems to be the perfect venue for future- and solution-oriented talks. <br>Scroll down for further information on the event.</p>
+
+
+
+
+</div>
 </div>
 
-<!--End mc_embed_signup-->
 
 
-  <div style="height:80px;"></div>
-<h2 style="font-size:38px; text-align:center;">Partners</h2>
+<div id="tickets" class="fullwidth-section text-light" style="background-color:#e62b1e">
+    <div class="fullwidth-content wrapper-small align-center">
 
-  <div class="grid__col grid__col--1-of-3">  <img width="80%" style="max-width:1200px; display:block; margin-left:auto; margin-right:auto;" src="images/partner.png"></img></div>
-  <div class="grid__col grid__col--1-of-3">  <img width="80%" style="max-width:1200px; display:block; margin-left:auto; margin-right:auto;" src="images/partner.png"></img></div>
-  <div class="grid__col grid__col--1-of-3">  <img width="80%" style="max-width:1200px; display:block; margin-left:auto; margin-right:auto;" src="images/partner.png"></img></div>
+      <h3><strong>Get Tickets</strong></h3>
+        <h5 class="subtitle-1"></h5>
+        <div class="spacer-mini"></div>
+        <p><strong>Tickets are not available yet.</strong><br> Please sign up to our <a href="#newsletter" style="color: #000;">newsletter</a> or follow us via Social Media to get our updates</p>
 
-
-  <div style="height:80px;"></div>
-<h2 style="font-size:38px; text-align:center;">We are TEDxHeidelberg</h2>
-
-
-
-
-
-
-
-
-
-
-
-
-                </section>
-        </main>
-
-        <footer> <p style="text-align:center">hallo@tedxheidelberg.de</p>
-
-        </footer>
-    </div>
 
       </div>
+  </div> <!-- END .fullwidth-section -->
 
 
 
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-                <script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
-                <script type="text/javascript" src="assets/js/jquery.easing.compatibility.js"></script>
+<div class="fullwidth-section" style="background-color:#fff; color:#000;">
+    <div class="fullwidth-content wrapper-small align-center">
 
 
+  <h3><strong>Partners</strong></h3>
+    <div class="spacer-big"></div>
 
-    <script>
+    <div class="column-section clearfix">
+      <div class="column one-third"><img src="files/uploads/logo-placeholder.png" alt="Logo Placeholder"></div>
+      <div class="column one-third"><img src="files/uploads/logo-placeholder.png" alt="Logo Placeholder"></div>
+      <div class="column one-third last-col"><img src="files/uploads/logo-placeholder.png" alt="Logo Placeholder"></div>
+    </div> <!-- END .column-section -->
 
+    <div class="column-section clearfix">
+      <div class="column one-third"><img src="files/uploads/logo-placeholder.png" alt="Logo Placeholder"></div>
+      <div class="column one-third"><img src="files/uploads/logo-placeholder.png" alt="Logo Placeholder"></div>
+      <div class="column one-third last-col"><img src="files/uploads/logo-placeholder.png" alt="Logo Placeholder"></div>
+    </div> <!-- END .column-section -->
 
+<div class="spacer-big"></div>
+    <a href="partners.html" class="sr-button button-1 button-icon-text button-tiny circled"><i class="fa fa-search-plus"></i>More information</a>
 
-
-    /*----------------------------------------------
-  					 O P E N   N A V
-  	------------------------------------------------*/
-  	jQuery('header').on("click", ".open-nav", function() {
-  		var hidden = jQuery('#main-nav').css('display');
-  		var borderWidthHeight = parseInt(jQuery("#page-content").css("padding-top"));
-  		var fullheight = jQuery(window).height()-(borderWidthHeight*2);
-
-  		if (hidden == 'block') {
-  			hideResponsiveNav();
-  		} else {
-  			jQuery('.open-nav span').toggleClass('is-clicked');
-  			jQuery('#main-nav').slideDown(700,'easeInOutExpo',function(){
-  				jQuery('#main-nav').addClass("nav-visible");
-  				var menuHeight = jQuery(".nav-inner").height();
-  				jQuery(".nav-inner").css({'max-height':menuHeight+'px'});
-  				if(menuHeight < fullheight) {
-  					var marginTop = parseInt((fullheight-menuHeight)/2);
-  				} else {
-  					var marginTop = 0;
-  				}
-  				jQuery(".nav-inner").animate({"marginTop": marginTop+'px', opacity: 1}, 700, 'easeInOutQuart');
-  			});
-  		}
-  		return false;
-  	});
-
-  	function hideResponsiveNav(){
-  		jQuery('.open-nav span').toggleClass('is-clicked');
-  		jQuery('#main-nav').removeClass("nav-visible");
-  		jQuery('.nav-inner').animate({marginTop: '0px', opacity: 0}, 700, 'easeInOutExpo', function(){ });
-  		jQuery("#main-nav").delay(100).slideUp(700,'easeInOutExpo');
-
-  	}
+</div> <!-- END .wrapper-small -->
+</div> <!-- END .wrapper-small -->
 
 
 
 
 
-  /*----------------------------------------------
-     D R O P   D O W N   N A  V I   (Mobile) + SHARE CLICK
-------------------------------------------------*/
-jQuery('nav#main-nav ul').on("click", "li", function() {
-  if (jQuery(window).width() < 1025) {
-    if (jQuery(this).find("ul").length > 0) {
-      if (jQuery(this).find("ul").css('visibility') == 'hidden') {
-        jQuery(this).addClass("hovered");
-        return false;
-      } else {
-        jQuery(this).removeClass("hovered");
-        return false;
-      }
-    }
-  }
-  var href = jQuery(this).find('a').attr('href');
-  if (href.charAt(0) !== '#') {
-    smoothtransistion(href);
-    return false;
-  } else {
-    hideResponsiveNav();
-    return true;
-  }
-});
-  </script>
+
+
+
+    	<div id="newsletter" class="fullwidth-section text-light" style="background-color:#e62b1e">
+         	<div class="fullwidth-content wrapper-small align-center">
+
+            <h3><strong>Join our Newsletter</strong></h3>
+              <h5 class="subtitle-1">Sign up to get our updates immediately</h5>
+              <div class="spacer-mini"></div>
+
+              <!-- Begin MailChimp Signup Form -->
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+
+  <div id="mc_embed_signup">
+  <form action="//tedxheidelberg.us13.list-manage.com/subscribe/post?u=08ff8485898b9c3bbcd202041&amp;id=2bd410be91" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div id="mc_embed_signup_scroll">
+  <div class="mc-field-group" style="margin-bottom: 30px;">
+  	<label for="mce-FNAME">First Name </label>
+  	<input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+  </div>
+  <div class="mc-field-group" style="margin-bottom: 30px;">
+  	<label for="mce-LNAME">Last Name </label>
+  	<input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
+  </div>
+  <div class="mc-field-group" style="margin-bottom: 30px;">
+  	<label for="mce-EMAIL">Email Address </label>
+  	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+  </div>
+  	<div id="mce-responses" class="clear">
+  		<div class="response" id="mce-error-response" style="display:none"></div>
+  		<div class="response" id="mce-success-response" style="display:none"></div>
+  	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_08ff8485898b9c3bbcd202041_2bd410be91" tabindex="-1" value=""></div>
+      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+      </div>
+  </form>
+  </div>
+  <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+  <!--End mc_embed_signup-->
+
+
+
+            </div>
+        </div> <!-- END .fullwidth-section -->
+
+ 	</section>
+	<!-- PAGEBODY -->
+
+
+    <!-- FOOTER -->
+    <footer id="footer" class="footer-light text-dark">
+       	<div class="footer-inner wrapper center">
+
+          <div class="fullwidth-section text-dark">
+              <div class="fullwidth-content wrapper-small align-center">
+<div class="we are">
+
+</div>
+                <div class="widget">
+                  <h3><strong class="uppercase">We are</strong></h3>
+                  <div class="spacer-medium"></div>
+                    <img src="files/uploads/logo-sudo-light.png" alt="Logo">
+                                      </div>
+
+                  <div class="widget">
+                     <ul class="socialmedia-widget hover-slide-1">
+                         <li class="facebook"><a href="http://www.fb.com/tedxheidelberg"></a></li>
+                         <li class="twitter"><a href="http://twitter.com/tedxheidelberg"></a></li>
+                         <li class="instagram"><a href="http://www.instagram.com/tedxheidelberg/"></a></li>
+                     </ul>
+                 </div>
+
+                </div>
+            </div> <!-- END .fullwidth-section -->
+
+
+
+         <div class="copyright"><small>Imprint | Copyright &copy; 2016 TEDxHeidelberg - Made with Love</small></div>
+    </footer>
+    <!-- FOOTER -->
+
+</div> <!-- END #page-content -->
+<!-- PAGE CONTENT -->
+
+<!-- SCRIPTS -->
+<script src="files/js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="files/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="files/js/jquery.visible.min.js"></script>
+<script type="text/javascript" src="files/js/tweenMax.js"></script>
+<script type="text/javascript" src="files/js/jquery.backgroundparallax.min.js"></script>
+<script type="text/javascript" src="files/js/jquery.owl.carousel.js"></script>
+<script type="text/javascript" src="files/js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="files/js/jquery.imagesloaded.min.js"></script>
+<script type="text/javascript" src="files/js/jquery.lightcase.min.js"></script>
+<script type="text/javascript" src="files/js/script.js"></script>
+<!-- SCRIPTS -->
 
 </body>
 </html>
