@@ -604,6 +604,7 @@ ul li, ol li {
 ---------------------------------------- */
 p {
 	margin-top: 20px;
+	margin-bottom:20px;
 	}
 	div p:first-child {  margin-top: 0px; }
 
