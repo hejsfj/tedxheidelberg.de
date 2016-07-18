@@ -4855,6 +4855,7 @@ hr.zigzag {
 ------------------------------------------------*/
 .team-content {
 	margin-top: 20px;
+	min-height: 172px;
 	}
 
 
